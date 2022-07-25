@@ -23,10 +23,9 @@ email: chase leinart at gmail dot com
 description: >- # this means to ignore newlines until "baseurl:"
   I'm a software engineer by profession. Some of my interests include linguistics, reverse engineering, emacs, and good food. Any opinions expressed are solely my own.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-#instagram_username: chase_leinart
-github_username:  chase_leinart
+url: chaseleinart.com
+instagram_username: chase_leinart
+github_username:  chaseleinart
 
 # Build settings
 theme: minima
