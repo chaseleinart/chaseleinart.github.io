@@ -28,7 +28,7 @@ instagram_username: chase_leinart
 github_username:  chaseleinart
 
 # Build settings
-theme: jekyll-theme-modernist
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
