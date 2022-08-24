@@ -20,7 +20,7 @@ As you can see, I opted for an everything bagel today. I think between plain and
 
 ![Bagel View](/images/earth_harvest_whole_bagel.jpg)
 
-This one differed from Bubby's and Loxsmith in the toppings. We have red onion, sprouts, cucumber, capers, and of course smoked salmon, and cream cheese.
+This one differed from Bubby's and Loxsmith in the toppings. We have red onion, tomato, sprouts, cucumber, capers, and of course smoked salmon, and cream cheese.
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Lox Bagel Review - Bubby's Bagel & Deli"
+title:  "Lox Bagel Review - Bubby's Bagel & Deli in Dover, NH"
 date:   2022-07-24 20:51:00 -0400
 categories: food
 ---
