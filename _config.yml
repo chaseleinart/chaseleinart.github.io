@@ -51,3 +51,6 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+staticman_url: https://static-man-cml-blog/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments
+
