@@ -46,8 +46,7 @@
       </time></p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>Hey you shitheads. I fucking love bagels with smoked salmon or lox. Maybe you think lox is the same thing, but you’re wrong. Go google it.</p>
+  <div class="post-content e-content" itemprop="articleBody"><p>Hey you shitheads. I fucking love bagels with smoked salmon or lox. Maybe you think lox is the same thing, but you’re wrong. Go google it.</p>
 
 <p>Anyway. I’m going to eat as many bagels with some type of salmon on them and write reviews on them.</p>
 
@@ -67,26 +66,46 @@
 
 <p>I’ve had other lox/smoked salmon bagels in Dover, but haven’t reviewed them yet. I’ll cut to the chase and suggest that Bubby’s has my favorite in town, unless the others I intend to later review have since upped their game. Keep up the good work.</p>
 
+</div>
 
-  </div>
-
-  <!-- Comments -->
-
-<!-- Comments Form -->
-<form method="POST" action="https://static-man-cml.herokuapp.com/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments">
-<input name="options[redirect]" type="hidden" value="https://example.com">
-<input name="options[slug]" type="hidden" value="bubbys-bagels">
-  <label>Name</label>
-  <input name="fields[name]" type="text">
-  <label>E-mail (optional)</label>
-  <input name="fields[email]" type="email">
-  <label>Website (optional)</label>
-  <input name="fields[url]" type="url">
-  <label>Message</label>
-  <textarea style="width:100%" name="fields[message]" rows="12"></textarea>
-  <small>Comments will appear after moderation.</small>
-  <button type="submit">Submit comment</button>
-</form>
+  <!-- _includes/comments.html -->
+<section class="comments">
+    
+  
+    <div>
+      <h2>Leave a Comment</h2>
+      <!-- _includes/comment-form.html -->
+<form method="POST" action="https://static-man-cml.herokuapp.com/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments" class="comment-form">
+    <input
+      name="options[redirect]"
+      type="hidden"
+      value="http://localhost:4000/food/2022/07/24/bubbys-bagels.html"
+    />
+    <input name="options[slug]" type="hidden" value="bubbys-bagels" />
+  
+    <textarea
+      class="comment-message"
+      name="fields[message]"
+      placeholder="Comment (markdown accepted)"
+      required
+    ></textarea>
+    <div class="comment-bottom">
+      <input
+        class="comment-name"
+        name="fields[name]"
+        type="text"
+        placeholder="Name"
+        required
+      />
+      <button class="comment-submit" type="submit">SEND</button>
+    </div>
+  </form>
+  
+    </div>
+  </section>
+  
+  
+  <a class="u-url" href="/food/2022/07/24/bubbys-bagels.html" hidden></a>
 
   <a class="u-url" href="/food/2022/07/24/bubbys-bagels.html" hidden></a>
 </article>

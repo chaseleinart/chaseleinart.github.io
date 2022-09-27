@@ -46,8 +46,7 @@
       </time></p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>Hey there friends! It’s time for another salmon bagel review. I visited Seattle last week for work, with the great fortune of sampling at least one salmon bagel in the city. I’ve been to Seattle before, and appreciate their exceedingly high quality of salmon, but failed to anticipate the impact that would have on a sandwich. It’s obvious though, that if you have a meal composed of few ingredients, the quality of each ingredient is paramount.</p>
+  <div class="post-content e-content" itemprop="articleBody"><p>Hey there friends! It’s time for another salmon bagel review. I visited Seattle last week for work, with the great fortune of sampling at least one salmon bagel in the city. I’ve been to Seattle before, and appreciate their exceedingly high quality of salmon, but failed to anticipate the impact that would have on a sandwich. It’s obvious though, that if you have a meal composed of few ingredients, the quality of each ingredient is paramount.</p>
 
 <p>Frolik is a restaurant situated on the fifth floor of the Motif hotel in Seattle. The Motif greatly annoyed me by forcing me to wait an hour for my reserved room - even after the check-in time. Thankfully, their food offerings were able to assuage my anger. As you might expect, Seattle is more expensive than the New Hampshire Seacost in basically every definable dimension, with the possible exception of lobster rolls. Thankfully, I didn’t find any and therefore wasn’t forced to consider how they would have made it to the PNW. $17 would be a very expensive salmon bagel in NH, but I think it was justified.</p>
 
@@ -67,26 +66,46 @@
 
 <p>I worry that I’ve set myself up for failure with this out of 100 scale, but we’ll keep it going for now. I reserve the right to rate over 100 if some divine bagel from the heavens reaches me, or may otherwise convert existing reviews to a leaderboard. For now, I’ll just state simply that this is the best salmon bagel I’ve ever had, and I weep for what missed opportunities may lie in Seattle. I will likely visit in the future and review other offerings at my next opportunity. For now, we’re back to the East Coast.</p>
 
+</div>
 
-  </div>
-
-  <!-- Comments -->
-
-<!-- Comments Form -->
-<form method="POST" action="https://static-man-cml.herokuapp.com/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments">
-<input name="options[redirect]" type="hidden" value="https://example.com">
-<input name="options[slug]" type="hidden" value="frolik">
-  <label>Name</label>
-  <input name="fields[name]" type="text">
-  <label>E-mail (optional)</label>
-  <input name="fields[email]" type="email">
-  <label>Website (optional)</label>
-  <input name="fields[url]" type="url">
-  <label>Message</label>
-  <textarea style="width:100%" name="fields[message]" rows="12"></textarea>
-  <small>Comments will appear after moderation.</small>
-  <button type="submit">Submit comment</button>
-</form>
+  <!-- _includes/comments.html -->
+<section class="comments">
+    
+  
+    <div>
+      <h2>Leave a Comment</h2>
+      <!-- _includes/comment-form.html -->
+<form method="POST" action="https://static-man-cml.herokuapp.com/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments" class="comment-form">
+    <input
+      name="options[redirect]"
+      type="hidden"
+      value="http://localhost:4000/food/2022/09/21/frolik.html"
+    />
+    <input name="options[slug]" type="hidden" value="frolik" />
+  
+    <textarea
+      class="comment-message"
+      name="fields[message]"
+      placeholder="Comment (markdown accepted)"
+      required
+    ></textarea>
+    <div class="comment-bottom">
+      <input
+        class="comment-name"
+        name="fields[name]"
+        type="text"
+        placeholder="Name"
+        required
+      />
+      <button class="comment-submit" type="submit">SEND</button>
+    </div>
+  </form>
+  
+    </div>
+  </section>
+  
+  
+  <a class="u-url" href="/food/2022/09/21/frolik.html" hidden></a>
 
   <a class="u-url" href="/food/2022/09/21/frolik.html" hidden></a>
 </article>

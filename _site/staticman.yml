@@ -39,9 +39,6 @@ comments:
   # Otherwise, entries will be published to the main branch automatically.
   moderation: false
 
-  # When allowedOrigins is defined, only requests sent from one of the listed domains will be accepted.
-  allowedOrigins: ["localhost", "chaseleinart.com"]
-
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.

@@ -46,8 +46,7 @@
       </time></p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>Hey there friends! It’s time for another salmon bagel review. Today I sampled the Smoked Salmon Bagel from Earth’s Harvest in Dover, NH.</p>
+  <div class="post-content e-content" itemprop="articleBody"><p>Hey there friends! It’s time for another salmon bagel review. Today I sampled the Smoked Salmon Bagel from Earth’s Harvest in Dover, NH.</p>
 
 <p>On the whole, Earth’s Harvest has a high quality and intriguing menu for Dover, if a bit expensive. The virtue of a Banh Mi sandwich is that it’s a cheap yummy bite…not a $15 luxury.</p>
 
@@ -73,26 +72,46 @@
 
 <p>I love salmon, so it’s hard to dislike any employment of the fish, but I think this sandwich had a few flaws. Were the bagel better toasted and the toppings more evenly distributed, the sandwich would have been greatly improved. I’ll probably revisit Earth’s Harvest in a future review to see if anything is changed.</p>
 
+</div>
 
-  </div>
-
-  <!-- Comments -->
-
-<!-- Comments Form -->
-<form method="POST" action="https://static-man-cml.herokuapp.com/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments">
-<input name="options[redirect]" type="hidden" value="https://example.com">
-<input name="options[slug]" type="hidden" value="earths-harvest">
-  <label>Name</label>
-  <input name="fields[name]" type="text">
-  <label>E-mail (optional)</label>
-  <input name="fields[email]" type="email">
-  <label>Website (optional)</label>
-  <input name="fields[url]" type="url">
-  <label>Message</label>
-  <textarea style="width:100%" name="fields[message]" rows="12"></textarea>
-  <small>Comments will appear after moderation.</small>
-  <button type="submit">Submit comment</button>
-</form>
+  <!-- _includes/comments.html -->
+<section class="comments">
+    
+  
+    <div>
+      <h2>Leave a Comment</h2>
+      <!-- _includes/comment-form.html -->
+<form method="POST" action="https://static-man-cml.herokuapp.com/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments" class="comment-form">
+    <input
+      name="options[redirect]"
+      type="hidden"
+      value="http://localhost:4000/food/2022/08/24/earths-harvest.html"
+    />
+    <input name="options[slug]" type="hidden" value="earths-harvest" />
+  
+    <textarea
+      class="comment-message"
+      name="fields[message]"
+      placeholder="Comment (markdown accepted)"
+      required
+    ></textarea>
+    <div class="comment-bottom">
+      <input
+        class="comment-name"
+        name="fields[name]"
+        type="text"
+        placeholder="Name"
+        required
+      />
+      <button class="comment-submit" type="submit">SEND</button>
+    </div>
+  </form>
+  
+    </div>
+  </section>
+  
+  
+  <a class="u-url" href="/food/2022/08/24/earths-harvest.html" hidden></a>
 
   <a class="u-url" href="/food/2022/08/24/earths-harvest.html" hidden></a>
 </article>

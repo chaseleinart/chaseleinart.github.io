@@ -46,8 +46,7 @@
       </time></p>
   </header>
 
-  <div class="post-content e-content" itemprop="articleBody">
-    <p>Hey there folks. I’m back at the salmon bagel reviews again. This time, we’re trying out “The Classic”, the flagship bagel from the cleverly-named Loxsmith Bagel Co. in Dover, NH.</p>
+  <div class="post-content e-content" itemprop="articleBody"><p>Hey there folks. I’m back at the salmon bagel reviews again. This time, we’re trying out “The Classic”, the flagship bagel from the cleverly-named Loxsmith Bagel Co. in Dover, NH.</p>
 
 <p>I live in walking distance from Loxsmith Bagels, so it’s immediately appealing as a destination. I frankly haven’t tried many things on their menu apart from the lox bagel, which is fine because that’s what this is all about.</p>
 
@@ -65,26 +64,46 @@
 
 <p>Overall, a very nice sandwich. That seems it should be a given for a place called Loxsmith Bagels. I would certainly order it again.</p>
 
+</div>
 
-  </div>
-
-  <!-- Comments -->
-
-<!-- Comments Form -->
-<form method="POST" action="https://static-man-cml.herokuapp.com/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments">
-<input name="options[redirect]" type="hidden" value="https://example.com">
-<input name="options[slug]" type="hidden" value="loxsmith-bagels ">
-  <label>Name</label>
-  <input name="fields[name]" type="text">
-  <label>E-mail (optional)</label>
-  <input name="fields[email]" type="email">
-  <label>Website (optional)</label>
-  <input name="fields[url]" type="url">
-  <label>Message</label>
-  <textarea style="width:100%" name="fields[message]" rows="12"></textarea>
-  <small>Comments will appear after moderation.</small>
-  <button type="submit">Submit comment</button>
-</form>
+  <!-- _includes/comments.html -->
+<section class="comments">
+    
+  
+    <div>
+      <h2>Leave a Comment</h2>
+      <!-- _includes/comment-form.html -->
+<form method="POST" action="https://static-man-cml.herokuapp.com/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments" class="comment-form">
+    <input
+      name="options[redirect]"
+      type="hidden"
+      value="http://localhost:4000/food/2022/08/17/loxsmith-bagels.html"
+    />
+    <input name="options[slug]" type="hidden" value="loxsmith-bagels " />
+  
+    <textarea
+      class="comment-message"
+      name="fields[message]"
+      placeholder="Comment (markdown accepted)"
+      required
+    ></textarea>
+    <div class="comment-bottom">
+      <input
+        class="comment-name"
+        name="fields[name]"
+        type="text"
+        placeholder="Name"
+        required
+      />
+      <button class="comment-submit" type="submit">SEND</button>
+    </div>
+  </form>
+  
+    </div>
+  </section>
+  
+  
+  <a class="u-url" href="/food/2022/08/17/loxsmith-bagels.html" hidden></a>
 
   <a class="u-url" href="/food/2022/08/17/loxsmith-bagels.html" hidden></a>
 </article>
