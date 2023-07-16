@@ -51,5 +51,3 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-
-staticman_url: https://static-man-cml.herokuapp.com/v3/entry/github/chaseleinart/chaseleinart.github.io/master/comments
