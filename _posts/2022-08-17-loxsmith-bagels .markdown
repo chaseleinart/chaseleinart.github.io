@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Lox Bagel Review - Loxsmith Bagel Co. in Dover, NH"
-date:   2022-08-17 12:23:00 -0400
+date:   2022-08-17
 categories: food
+tags: [Bagels]
 ---
 Hey there folks. I'm back at the salmon bagel reviews again. This time, we're trying out "The Classic", the flagship bagel from the cleverly-named Loxsmith Bagel Co. in Dover, NH.
 

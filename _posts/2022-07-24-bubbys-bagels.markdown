@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Lox Bagel Review - Bubby's Bagel & Deli in Dover, NH"
-date:   2022-07-24 20:51:00 -0400
+date:   2022-07-24
 categories: food
+tags: [Bagels]
 ---
 Hey you shitheads. I fucking love bagels with smoked salmon or lox. Maybe you think lox is the same thing, but you're wrong. Go google it.
 

@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Smoked Salmon Bagel Review - Frolik in Seattle, WA"
-date:   2022-09-21 07:00:00 -0700
+date:   2022-09-21
 categories: food
+tags: [Bagels]
 ---
 Hey there friends! It's time for another salmon bagel review. I visited Seattle last week for work, with the great fortune of sampling at least one salmon bagel in the city. I've been to Seattle before, and appreciate their exceedingly high quality of salmon, but failed to anticipate the impact that would have on a sandwich. It's obvious though, that if you have a meal composed of few ingredients, the quality of each ingredient is paramount.
 

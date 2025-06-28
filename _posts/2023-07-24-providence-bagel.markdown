@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Lox Bagel Review - Providence Bagel in Kingston, RI"
-date:   2023-07-24 01:20:00 -0400
+date:   2023-07-24
 categories: food
+tags: [Bagels]
 ---
 Hey there folks,
 

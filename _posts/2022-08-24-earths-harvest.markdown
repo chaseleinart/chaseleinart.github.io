@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Smoked Salmon Bagel Review - Earth's Harvest in Dover, NH"
-date:   2022-08-24 11:44:00 -0400
+date:   2022-08-24
 categories: food
+tags: [Bagels]
 ---
 Hey there friends! It's time for another salmon bagel review. Today I sampled the Smoked Salmon Bagel from Earth's Harvest in Dover, NH.
 

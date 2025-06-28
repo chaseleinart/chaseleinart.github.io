@@ -1,8 +1,9 @@
 ---
 layout: post
 title:  "Smoked Salmon Sandwich Review - The Works in Durham, NH"
-date:   2022-08-31 12:00:00 -0400
+date:   2022-08-31
 categories: food
+tags: [Bagels]
 ---
 Hey there friends! It's time for another salmon bagel review. I've been busy recently and although I sampled 2 whole salmon bagels in the last few weeks, I didn't manage to write down my thoughts. This entry is dated 8/31/22, but I'm penning it now on 9/26. Hopefully the scant notes I cribbed a few weeks ago will be enough to make a worthwhile review. I sampled the Smoked Salmon Sandwich from the Works Cafe in Durham, NH. As far as I know, I've exhausted all my available Dover options for salmon on bagel, so I had to venture over to the nearby Durham for another bagel adventure.
 
